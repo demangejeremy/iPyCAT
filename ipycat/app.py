@@ -6,7 +6,7 @@
 # Importations
 import click
 import requests
-from src.nuage_mots import nuagesMots
+from ipycat.src.nuage_mots import nuagesMots
 
 # Application principale
 @click.group()
@@ -15,6 +15,7 @@ def main():
     Interface Python en ligne de commande pour les Analyses Multidimensionnelles de Textes.
     """
     pass
+
 
 # Nuage de mots
 @main.command()
@@ -26,6 +27,7 @@ def main():
 def nuage_de_mots(query, width, height, max_words, background_color):
     """Générer un nuage de mots."""
     nuagesMots(query, width, height, max_words, background_color)
+
 
 # Lancement de l'application
 if __name__ == "__main__":

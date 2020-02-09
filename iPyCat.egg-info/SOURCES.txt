@@ -4,4 +4,7 @@ setup.py
 iPyCat.egg-info/PKG-INFO
 iPyCat.egg-info/SOURCES.txt
 iPyCat.egg-info/dependency_links.txt
+iPyCat.egg-info/not-zip-safe
 iPyCat.egg-info/top_level.txt
+ipycat/__init__.py
+ipycat/app.py
