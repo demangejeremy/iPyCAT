@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: iPyCat
+Version: 0.0.4
+Summary: Interface Python en ligne de commande pour les Analyses Multidimensionnelles de Textes.
+Home-page: https://github.com/demangejeremy/iPyCAT
+Author: Jérémy DEMANGE
+Author-email: jeremy.demange.mail@gmail.com
+License: UNKNOWN
+Description: # iPyCAT
+        Interface Python en ligne de commande pour les Analyses Multidimensionnelles de Textes.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

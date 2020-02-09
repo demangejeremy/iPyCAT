@@ -1,0 +1,7 @@
+README.md
+ipycat
+setup.py
+iPyCat.egg-info/PKG-INFO
+iPyCat.egg-info/SOURCES.txt
+iPyCat.egg-info/dependency_links.txt
+iPyCat.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+
+*.pyc
+.DS_Store
+.vscode/settings.json
+build/scripts-3.6/ipycat
+*.whl
