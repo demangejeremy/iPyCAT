@@ -17,3 +17,13 @@ Pour installer iPyCAT sur votre machine, assurez-vous de posséder Python <= 3.7
 ```
 pip install iPyCat && ipycat update
 ```
+
+## Prise en main de l'application
+
+Cette section est en cours de développement. De nouveaux exemples seront ajoutés sous peu.
+
+### Générer un nuage de mots
+
+```
+ipycat nuage-de-mots /chemin/de/mon/document/txt/exemple.txt
+```

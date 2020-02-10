@@ -19,7 +19,7 @@ from utils.stop_words import stopWords
 @click.group()
 def main():
     """
-    Interface Python en ligne de commande pour les Analyses Multidimensionnelles de Textes.
+    Interface Python en ligne de commande pour les Analyses de Textes.
     """
     pass
 

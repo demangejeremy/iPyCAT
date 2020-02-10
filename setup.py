@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='iPyCat',
-    version='0.0.09',
+    version='0.0.11',
     scripts=['ipycat'],
     author="Jérémy DEMANGE",
     author_email="jeremy.demange.mail@gmail.com",
