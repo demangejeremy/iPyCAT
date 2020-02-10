@@ -1,6 +1,10 @@
-
-*.pyc
 .DS_Store
-.vscode/settings.json
-build/scripts-3.6/ipycat
-*.whl
+/dokr.egg-info/
+/dist/
+build/
+.settings/
+.project
+.classpath
+*.pyc
+/dokenv/
+/__pycache__/
