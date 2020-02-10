@@ -1,6 +1,5 @@
-  <h1><center>
-  iPyCAT</center></h1>
-  <p>Interface Python en ligne de Commande pour les Analyses de Textes.</p>
+  <h1 align=center>iPyCAT</h1>
+  <p align=center>Interface Python en ligne de Commande pour les Analyses de Textes.</p>
 <br>
 
 ## Préambule
