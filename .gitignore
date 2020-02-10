@@ -1,3 +1,4 @@
+/txt/
 .DS_Store
 /dist/
 /build/
@@ -7,5 +8,4 @@
 *.pyc
 /__pycache__/
 /*.egg-info
-/txt/
 
