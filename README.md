@@ -1,6 +1,6 @@
-# iPyCAT
-
-Interface Python en ligne de Commande pour les Analyses de Textes.
+  <h1 align=center>iPyCAT</h1>
+  <p align=center>Interface Python en ligne de Commande pour les Analyses de Textes.</p>
+<br>
 
 ## Préambule
 
