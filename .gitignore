@@ -1,9 +1,11 @@
 .DS_Store
-/iPyCat.egg-info/
 /dist/
-build/
+/build/
 .settings/
 .project
 .classpath
 *.pyc
 /__pycache__/
+/*.egg-info
+/txt/
+
