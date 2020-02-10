@@ -5,7 +5,8 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='iPyCat',
-    version='0.0.07',
+    version='0.0.08',
+    scripts=['ipycat'],
     author="Jérémy DEMANGE",
     author_email="jeremy.demange.mail@gmail.com",
     description="Interface Python en ligne de commande pour les Analyses Multidimensionnelles de Textes.",
