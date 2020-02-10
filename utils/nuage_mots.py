@@ -14,4 +14,4 @@ def nuagesMots(link_txt, width, height, max_words, background_color):
 
     # The pil way (if you don't have matplotlib)
     image = wordcloud.to_image()
-    image.show()
+    image.show() 

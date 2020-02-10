@@ -8,7 +8,12 @@
 # Importations
 import click
 import requests
+import subprocess
+import os
+import nltk
+import ssl
 from utils.nuage_mots import nuagesMots
+from utils.stop_words import stopWords
 
 # Application principale
 @click.group()
@@ -18,6 +23,20 @@ def main():
     """
     pass
 
+# Stop
+@main.command()
+def update():
+    """Mise à jour des dépendances d'iPyCat"""
+    click.echo(click.style('+ Installation de dépendances pour NLTK', bold=True))
+    try:
+        _create_unverified_https_context = ssl._create_unverified_context
+    except AttributeError:
+        pass
+    else:
+        ssl._create_default_https_context = _create_unverified_https_context
+    nltk.download('stopwords')
+    nltk.download('punkt')
+    click.echo(click.style('+ Fin de mise à jour', fg='green'))
 
 # Nuage de mots
 @main.command()
@@ -29,6 +48,13 @@ def main():
 def nuage_de_mots(query, width, height, max_words, background_color):
     """Générer un nuage de mots."""
     nuagesMots(query, width, height, max_words, background_color)
+
+# Stop
+@main.command()
+@click.argument('query')
+def stop_words(query):
+    """Enlever les mots 'stop words'"""
+    stopWords()
 
 
 # Lancement de l'application

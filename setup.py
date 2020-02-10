@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='iPyCat',
-    version='0.0.08',
+    version='0.0.09',
     scripts=['ipycat'],
     author="Jérémy DEMANGE",
     author_email="jeremy.demange.mail@gmail.com",
@@ -15,7 +15,7 @@ setuptools.setup(
     url="https://github.com/demangejeremy/iPyCAT",
     packages=setuptools.find_packages(),
     install_requires=[
-        'wordcloud', 'requests', 'click'
+        'wordcloud', 'nltk', 'numpy', 'requests', 'click'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
