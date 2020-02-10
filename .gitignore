@@ -1,10 +1,9 @@
 .DS_Store
-/dokr.egg-info/
+/iPyCat.egg-info/
 /dist/
 build/
 .settings/
 .project
 .classpath
 *.pyc
-/dokenv/
 /__pycache__/
