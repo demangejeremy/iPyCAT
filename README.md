@@ -27,3 +27,11 @@ Cette section est en cours de développement. De nouveaux exemples seront ajout�
 ```
 ipycat nuage-de-mots /chemin/de/mon/document/txt/exemple.txt
 ```
+
+### Autres commandes
+
+Saisissez iPyCAT dans votre terminal afin de voir la liste des commandes supportées par notre application.
+
+```
+ipycat
+```
