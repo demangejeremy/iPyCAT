@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 #
 # iPyCAT - Application en ligne de commande
 # @DemangeJeremy - Licence MIT
@@ -6,7 +8,7 @@
 # Importations
 import click
 import requests
-from ipycat.src.nuage_mots import nuagesMots
+from utils.nuage_mots import nuagesMots
 
 # Application principale
 @click.group()

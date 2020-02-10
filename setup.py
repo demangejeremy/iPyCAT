@@ -5,15 +5,17 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='iPyCat',
-    version='0.0.05',
+    version='0.0.07',
     author="Jérémy DEMANGE",
     author_email="jeremy.demange.mail@gmail.com",
     description="Interface Python en ligne de commande pour les Analyses Multidimensionnelles de Textes.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/demangejeremy/iPyCAT",
-    packages=['ipycat'],
-    zip_safe=False,
+    packages=setuptools.find_packages(),
+    install_requires=[
+        'wordcloud', 'requests', 'click'
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
          "License :: OSI Approved :: MIT License",
