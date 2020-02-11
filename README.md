@@ -34,6 +34,12 @@ Cette section est en cours de développement. De nouveaux exemples seront ajout�
 iPyCAT nuage-de-mots /chemin/de/mon/document/txt/exemple.txt
 ```
 
+La liste des paramètres optionnels sont disponibles en saisissant :
+
+```
+iPyCAT nuage-de-mots --help
+```
+
 ### Autres commandes
 
 Saisissez iPyCAT dans votre terminal afin de voir la liste des commandes supportées par notre application.
