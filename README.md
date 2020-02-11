@@ -18,6 +18,12 @@ Pour installer iPyCAT sur votre machine, assurez-vous de posséder Python <= 3.7
 pip install iPyCat && ipycat update
 ```
 
+Pour mettre à jour l'application iPyCAT, saisir en ligne de commande :
+
+```
+pip install --upgrade iPyCAT && iPyCAT update
+```
+
 ## Prise en main de l'application
 
 Cette section est en cours de développement. De nouveaux exemples seront ajoutés sous peu.
