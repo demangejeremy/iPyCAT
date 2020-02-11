@@ -15,7 +15,7 @@ Afin de lancer l'application iPyCAT sur votre machine, vous devez posséder une 
 Pour installer iPyCAT sur votre machine, assurez-vous de posséder Python <= 3.7 sur votre machine et dans votre PATH. En ligne de commande, dans votre terminal, installez notre application via PyPI en exécutant la commande suivante :
 
 ```
-pip install iPyCat && ipycat update
+pip install iPyCAT && iPyCAT update
 ```
 
 Pour mettre à jour l'application iPyCAT, saisir en ligne de commande :
@@ -31,7 +31,7 @@ Cette section est en cours de développement. De nouveaux exemples seront ajout�
 ### Générer un nuage de mots
 
 ```
-ipycat nuage-de-mots /chemin/de/mon/document/txt/exemple.txt
+iPyCAT nuage-de-mots /chemin/de/mon/document/txt/exemple.txt
 ```
 
 ### Autres commandes
@@ -39,5 +39,5 @@ ipycat nuage-de-mots /chemin/de/mon/document/txt/exemple.txt
 Saisissez iPyCAT dans votre terminal afin de voir la liste des commandes supportées par notre application.
 
 ```
-ipycat
+iPyCAT
 ```
