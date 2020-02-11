@@ -55,7 +55,7 @@ En cas de problème pour utiliser iPyCAT, merci de nous contacter par mail afin 
 Afin de répondre avec diligence à votre demande, nous vous prions de bien vouloir répondre à ces questions dans votre premier message :
 
 ```
-> Quelle est votre système d'exploitation ? (Windows, MAC, etc.)
+> Quel est votre système d'exploitation ? (Windows, MAC, etc.)
 > Quelle est la version du système d'exploitation ? (Windows 10, MACOS 10.15.2, etc.)
 > Joignez à votre message la sortie complète affichée en ligne de commandes.
 ```
