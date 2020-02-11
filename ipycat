@@ -19,14 +19,14 @@ from utils.stop_words import stopWords
 @click.group()
 def main():
     """
-    Interface Python en ligne de commande pour les Analyses de Textes.
+    Interface Python en ligne de Commande pour les Analyses de Textes.
     """
     pass
 
 # Stop
 @main.command()
 def update():
-    """Mise à jour des dépendances d'iPyCat"""
+    """Mise à jour des dépendances d'iPyCAT"""
     click.echo(click.style('+ Installation de dépendances pour NLTK', bold=True))
     try:
         _create_unverified_https_context = ssl._create_unverified_context
@@ -40,21 +40,22 @@ def update():
 
 # Nuage de mots
 @main.command()
-@click.argument('query')
+@click.argument('chemin_fichier')
 @click.option('--width', default=400, help='Largeur de l\'image générée.')
 @click.option('--height', default=200, help='Hauteur de l\'image générée.')
 @click.option('--max_words', default=200, help='Nombre de mots maximum dans le nuage.')
-@click.option('--background_color', default='white', help='Couleur d\'arrière-fond du nuage')
-def nuage_de_mots(query, width, height, max_words, background_color):
+@click.option('--background_color', default='white', help='Couleur d\'arrière-fond du nuage.')
+def nuage_de_mots(chemin_fichier, width, height, max_words, background_color):
     """Générer un nuage de mots."""
-    nuagesMots(query, width, height, max_words, background_color)
+    nuagesMots(chemin_fichier, width, height, max_words, background_color)
 
 # Stop
 @main.command()
-@click.argument('query')
-def stop_words(query):
+@click.argument('chemin_fichier')
+@click.option('--langue', default="french", help='Langue du texte.')
+def stop_words(chemin_fichier, langue):
     """Enlever les mots 'stop words'"""
-    stopWords()
+    stopWords(chemin_fichier, langue)
 
 
 # Lancement de l'application
