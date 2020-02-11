@@ -23,7 +23,7 @@ def main():
     """
     pass
 
-# Stop
+# Mise à jour des dépendances
 @main.command()
 def update():
     """Mise à jour des dépendances d'iPyCAT"""
@@ -54,7 +54,7 @@ def nuage_de_mots(chemin_fichier, width, height, max_words, background_color):
 @click.argument('chemin_fichier')
 @click.option('--langue', default="french", help='Langue du texte.')
 def stop_words(chemin_fichier, langue):
-    """Enlever les mots 'stop words'"""
+    """Enlever les mots 'stop words'."""
     stopWords(chemin_fichier, langue)
 
 
