@@ -58,4 +58,7 @@ def methode_reinert(texte):
     # print(motsClassification)
 
 # Appel de la fonction
-methode_reinert("Je suis en France maintenant. La France est si belle. J'aime cette belle France. Ses odeurs. Ses beaux quartiers en région parisienne. Ses tours et ses cathédrales.")
+methode_reinert("""
+Le bilan des décès et des contaminations au coronavirus a connu, jeudi 13 février, une forte hausse en Chine après l’adoption par les autorités d’une nouvelle méthode de détection des cas.
+Ces nouveaux chiffres pourraient alimenter les spéculations selon lesquelles la gravité de l’épidémie de pneumonie due au nouveau coronavirus, appelée officiellement Covid-19 par l’Organisation mondiale de la santé (OMS), pourrait avoir été sous-estimée. Les ministres européens de la santé doivent se réunir jeudi à Bruxelles pour discuter du sujet.
+""")
