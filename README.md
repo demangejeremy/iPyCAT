@@ -8,7 +8,7 @@ Ces instructions vous permettront d'utiliser au mieux l'application iPyCAT et de
 
 ### Pré-requis
 
-Afin de lancer l'application iPyCAT sur votre machine, vous devez posséder une version de Python <= 3.7. L'application est multi-plateforme et fonctionne sur Windows, MAC ou Linux.
+Afin de lancer l'application iPyCAT sur votre machine, vous devez posséder une version de Python >= 3.7. L'application est multi-plateforme et fonctionne sur Windows, MAC ou Linux.
 
 ### Installation
 
